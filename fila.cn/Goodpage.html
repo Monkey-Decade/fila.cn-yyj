@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILA｜斐乐官方网站(YYJ)</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="./css/Goodpage.css">
+    <script src="./lib/jquery.min.js"></script>
+
+</head>
+<body class="scroll">
+    <header class="header">
+        <div class="logo">
+            <a href="./index.html"><img src="./img/fila_blue_150.png" alt=""></a>
+        </div>
+        <div class="fila_navbar">
+            <div class="navbar_search">
+                <input type="text" value="卫衣">
+                <button>搜索</button>
+            </div>
+            <ul class="navbar_list">
+                <!-- 未登录 -->
+                <li class="navbar_login">
+                    <a href="http://localhost/Log.html" target="_blank" title="登入">登入</a>
+                </li>
+                <li class="navbar_register">
+                    <a href="./Reg.html" target="_blank" title="注册">注册</a>
+                </li>
+                <!-- 已登录 -->
+                <!-- <li class="navbar_user"><a href="#" target="_blank">您好，<span></span></a></li>
+                <li class="navbar_logout"><a href="#" title="退出">退出</a></li> -->
+                <li class="navbar_cart">
+                    <a href="./Shoppingcart.html" target="_blank">
+                        <i class="icon icon_cart"></i><span class="cart_count"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>  
+    <div class="main_container">
+        <div class="page_container">
+            <div class="pro-container w-full">
+                <div class="pro-main w-1280 clearfix">
+                    <!-- 左边切换列表 -->
+                    <div class="pro-view fl clearfix">
+                        <div class="pro-view-l fl">
+                            <div class="pro-smallImgs">
+                                
+                                
+                            </div>
+                            <!-- 爱心 -->
+                            <div class="pro-operates">
+                                <a href="javascript:;" class="pro-collect">收藏</a>
+                            </div>
+                        </div>
+                        
+                        <div class="pro-bigImg fl">
+                            <div class="bigImg-box cloudzoom">
+                                <img class="cloudzoom" src="" id="zoom1">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 右边商品信息 -->
+                    <div class="pro-infos J_pro_infos fl">
+                        <!-- 商品标题 -->
+                        <div class="J_pro_infos_t">
+                            <h3 class="goods-name"></h3>
+                            <p class="goods-sn"></p>
+                            <p class="goods-price"></p>
+                            <div class="promos clearfix">
+                                <div class="promos-title fl">促销</div>
+                                <div class="promos-content">
+                                    <a href="javascript:;" title="item">【免运费】全场免运费</a>
+                                    <a href="javascript:;" title="item">黑卡会员折扣优惠</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 商品内容 -->
+                        <div class="J_pro_infos_b">
+                            <p class="goods-attr goods-color J_goods_color">颜色：<span class="NowColor"></span></p>
+                            <!-- 商品颜色转换 -->
+                            <ul class="attr_list color_list J_color_list">
+                                
+                            </ul>
+                            <!-- 商品尺码 -->
+                            <p class="goods-attr goods-size J_goods_size">尺码：<span class="NowSize"></span></p>
+                            <ul class="attr_list size_list J_size_list">
+                                
+                            </ul>
+                            <div class="infos-panel">
+                                <div class="infos-cell clearfix">
+                                    <div class="box-label fl">购买数量:<em></em></div>
+                                    <div class="pro-num-edit fr">
+                                        <a class="num-ops num-minus" href="javascript:;">-</a>
+                                        <input class="num-input" id="selectNum" type="text" value="1">
+                                        <a class="num-ops num-plus" href="javascript:;">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="goods-btns clearfix">
+                                <a class="btn-addCart fl"  href="javascript:;">加入购物车</a>
+                                <a class=" btn-toBuy fr" href="javascript:;" target="_blank">立即购买</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="pro-details w-1280 " style="margin-top:30px">
+        
+                </div>
+        
+            </div>
+        </div>
+    </div>
+    <footer class="footer clear-fix">
+        <div class="ft_left">
+            <ul class="link_list">
+                <li><a href="" target="_blank">购物服务</a></li>
+                <li><a href="" target="_blank">关于品牌</a></li>
+                <li><a href="" target="_blank">查找门店</a></li>
+            </ul>
+            <div class="ft_follow">
+                <span>关注FILA的官方媒体:</span>
+                <a class="ft_sina" href="" target="_blank"></a>
+                <a class="ft_weixin">
+                    <div class="ft_weixin_tip"><img src="./img/qr-code.jpg" alt=""></div>
+                </a>
+            </div>
+            <div class="ft_service">
+                <span>售后服务电话: 400-886-7699</span>
+            </div>
+        </div>
+        <div class="ft_right">
+            <span>&copy;FILA体育&nbsp;
+                <a style="color: #888;" target="_blank" href="javascript:;">闽ICP备11020421号-8</a>
+                <a style="color: #888;margin-left: 10px;" target="_blank" href="javascript:;">闽公网安备35020302033807号</a>
+            </span>
+            <span>&copy;2020 FILA Luxembourg S.à.r.l. - All Rights Reserved -</span>
+        </div>
+    </footer>
+    <div class="KF">
+        <a class="kefu" href="javascript:;" title="在线客服">客服</a>
+    </div>
+</body>
+<script src="./js/Goodpage.js"></script>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILA｜斐乐官方网站(YYJ)</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="./css/Log.css">
+    <script src="./lib/jquery.min.js"></script>
+</head>
+<body class="scroll">
+    <div class="main_container">
+        <div id="page_container" class="wrapper">
+            <div class="wrap">
+                <div class="layout clear-fix">
+                    <div class="login_area">
+                        <h5 class="n_tit_msg clear-fix">
+                            <span>欢迎登录</span>
+                            <img src="./img/fila_blue_150.png" alt="">
+                        </h5>
+                        <div class="login_tabs clear-fix">
+                            <h6 class="active">账号密码登录</h6>
+                            <h6>短信快捷登录/注册</h6>
+                        </div>
+                        <form id="login_main_form">
+                            <div class="loginbox">
+                                <div class="lgn_inputbg active">
+                                    <label class="labelbox">
+                                        <input autocomplete="off" type="text" name="user" id="username" placeholder="手机号码" class="item_account">
+                                    </label>
+                                    <label class="labelbox">
+                                        <input type="password" name="pwd" id="pwd" placeholder="登录密码">
+                                    </label>
+                                </div>
+                                <div class="lgn_inputbg">
+                                    <label class="labelbox">
+                                        <input autocomplete="off" type="text" name="user" id="username2" placeholder="手机号码" class="item_account">
+                                    </label>
+                                    <label class="labelbox code_label">
+                                        <input type="text" id="captcha-code2" maxlength="4" placeholder="请输入图片验证码" class="code">
+                                        <img id="captcha-img2" src="http://www.fila.cn/api.php?s=fila/passport/code.html&w=120&h=36&1601806804636" alt="点击可刷新图片验证码" class="chkcode_img">
+                                    </label>
+                                    <label class="labelbox labelbox-smscode">
+                                        <input type="text" maxlength="6" placeholder="短信验证码" class="code" name="smscode" autocomplete="off">
+                                        <a href="javascript:;" title="获取验证码" class="verify-sendbtn">获取验证码</a>
+                                    </label>
+                                </div>
+                                <p id="errorTip" style="display: none;">用户名或密码不正确</p>
+                                <p id="errorTip1" style="display: none;text-align: left;line-height: 20px;color: #d71921;font-size: 12px;">不是吧，手机号码有11位</p>
+                                <div class="btns_bg">
+                                    <input id="login_button" type="button" value="立即登陆" class="btnadpt">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <p class="go_login"><a href="javascript:;">忘记密码?</a></p>
+                </div>
+                <script src="./js/Log.js"></script>
+                <div class="layout_toreg">
+                    <div class="toreg_inner">
+                        <h2>加入FILA V.I.P.</h2>
+                        <P>注册成为会员并完善个人信息，即可享受 ：</P>
+                        <ul>
+                            <li>积分可在官网购物时作为现金抵扣；</li>
+                            <li>官网、门店消费共享会员权益和积分累计；</li>
+                            <li>即时收到优惠及新品发布信息，品牌活动邀约</li>
+                        </ul>
+                        <a href="./Reg.html" title="立即注册" class="btn-toreg">立即注册</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer clear-fix">
+        <div class="ft_left">
+            <ul class="link_list">
+                <li><a href="javascript:;" target="_blank">购物服务</a></li>
+                <li><a href="javascript:;" target="_blank">关于品牌</a></li>
+                <li><a href="javascript:;" target="_blank">查找门店</a></li>
+            </ul>
+            <div class="ft_follow">
+                <span>关注FILA的官方媒体:</span>
+                <a class="ft_sina" href="javascript:;" target="_blank"></a>
+                <a class="ft_weixin">
+                    <div class="ft_weixin_tip"><img src="./img/qr-code.jpg" alt=""></div>
+                </a>
+            </div>
+            <div class="ft_service">
+                <span>售后服务电话: 400-886-7699</span>
+            </div>
+        </div>
+        <div class="ft_right">
+            <span>&copy;FILA体育&nbsp;
+                <a style="color: #888;" target="_blank" href="javascript:;">闽ICP备11020421号-8</a>
+                <a style="color: #888;margin-left: 10px;" target="_blank" href="javascript:;">闽公网安备35020302033807号</a>
+            </span>
+            <span>&copy;2020 FILA Luxembourg S.à.r.l. - All Rights Reserved -</span>
+        </div>
+    </footer>
+    <div class="KF">
+        <a class="kefu" href="javascript:;" title="在线客服">客服</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+.reg{
+    background: #fff;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: initial;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+h5.n_tit_msg {
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    color: #03234c;
+    line-height: 24px;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+.n_tit_msg>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+.n_tit_msg>img {
+    height: 24px;
+    width: auto;
+    margin-left: 8px;
+}
+.lgn_inputbg {
+    position: relative;
+}
+.labelbox {
+    display: block;
+    margin-bottom: 14px;
+    padding: 0;
+    border: 1px solid #e0e0e0;
+    position: relative;
+}
+.labelbox input {
+    width: 100%;
+    height: 42px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+}
+.labelbox.labelbox_agree {
+    border: none;
+    font-size: 13px;
+    color: #000;
+}
+.labelbox.labelbox_agree a {
+    color: #999;
+}
+.labelbox.labelbox_agree input {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    line-height: initial;
+    width: auto !important;
+}
+.btns_bg {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.wrapper .btnadpt {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background: #03234c;
+}
+.wrapper .go_login{
+    color: #999;
+}

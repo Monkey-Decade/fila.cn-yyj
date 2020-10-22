@@ -1,0 +1,92 @@
+/* 主体 */
+
+/* 轮播图 */
+.main_container>.page_nav ~ .page_container {
+    width: 84.4%;
+    margin-left: 15.6%;
+    /* height: 1018px; */
+    height: calc(100vh + 80px);
+    margin-bottom: 50px;
+}
+.page_container .slider{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.page_container .slider_img{
+    width: 100%;
+    height: 100%;
+}
+.page_container .swiper-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    box-sizing: content-box;
+}
+.page_container .slider li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.page_container .slider li img{
+    width: 100%;
+    height: 100%;
+}
+.page_container .slider_btn{
+    text-align: center;
+}
+.page_container .slider_btn .prev{
+    background: url(https://static.zcool.cn/git_z/z/widget/slider/images/svg/left_arrow.svg?v=2);
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    margin-top: -26px;
+    left: 10px;
+    cursor: pointer;
+}
+.page_container .slider_btn .next{
+    background: url(https://static.zcool.cn/git_z/z/widget/slider/images/svg/right_arrow.svg?v=2);
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    margin-top: -26px;
+    right: 10px;
+    cursor: pointer;
+}
+.page_container .xbtn{
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    z-index: 100;
+    transform:translate(-50%,-50%);
+}
+.page_container .dot{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    margin: 0 20px ;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+.page_container .dot_color{
+    background-color: red;
+}
+/* 时间 */
+#time{
+    width: 200px;
+    height: 90px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+    padding-top: 50px;
+}
